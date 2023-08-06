@@ -1,0 +1,23 @@
+2023-08-07 00:55:11,270 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://172.18.0.12:8000
+2023-08-07 00:55:11,270 INFO [33mPress CTRL+C to quit[0m
+2023-08-07 00:55:27,271 INFO search querry recieved
+2023-08-07 00:55:27,274 DEBUG Starting new HTTPS connection (1): www.google.com:443
+2023-08-07 00:55:27,452 DEBUG https://www.google.com:443 "GET /search?q=%20m%20d%20f%20%20%20j%20a%20a%20l%20i%20%20%20d%20e%20s%20i%20g%20n%20s%20%20%20f%20o%20r%20%20%20r%20o%20u%20n%20d%20%20%20s%20h%20a%20p%20e%20s%20&tbm=isch&ved=2ahUKEwj5oOaokMaAAxW66DgGHQyVAkgQ2-cCegQIABAA&oq=elonmusk&gs_lcp=CgNpbWcQAzIICAAQgAQQsQMyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQ6BwgAEIoFEEM6BAgjECc6BggAEAcQHjoICAAQBRAHEB46BwgAEBgQgAQ6CQgAEBgQgAQQClDgmWBY5rlgYK69YGgCcAB4AIABzAGIAfAKkgEFMC45LjGYAQCgAQGqAQtnd3Mtd2l6LWltZ8ABAQ&sclient=img&ei=HpLOZPmZHbrR4-EPjKqKwAQ&bih=754&biw=1482 HTTP/1.1" 200 None
+2023-08-07 00:55:27,714 INFO Directory for saving the images have been created
+2023-08-07 00:55:29,174 INFO Images have been saved to the local directory
+2023-08-07 00:55:29,174 INFO 172.18.0.2 - - [07/Aug/2023 00:55:29] "POST /review HTTP/1.1" 200 -
+2023-08-07 00:57:49,366 INFO Home page rendered
+2023-08-07 00:57:49,367 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://172.18.0.12:8000
+2023-08-07 00:57:49,367 INFO [33mPress CTRL+C to quit[0m
+2023-08-07 00:57:56,443 INFO search querry recieved
+2023-08-07 00:57:56,446 DEBUG Starting new HTTPS connection (1): www.google.com:443
+2023-08-07 00:57:56,968 DEBUG https://www.google.com:443 "GET /search?q=%20m%20d%20f%20%20%20j%20a%20a%20l%20i%20%20%20d%20e%20s%20i%20g%20n%20s%20%20%20f%20o%20r%20%20%20r%20o%20u%20n%20d%20%20%20s%20h%20a%20p%20e%20s%20&tbm=isch&ved=2ahUKEwj5oOaokMaAAxW66DgGHQyVAkgQ2-cCegQIABAA&oq=elonmusk&gs_lcp=CgNpbWcQAzIICAAQgAQQsQMyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQ6BwgAEIoFEEM6BAgjECc6BggAEAcQHjoICAAQBRAHEB46BwgAEBgQgAQ6CQgAEBgQgAQQClDgmWBY5rlgYK69YGgCcAB4AIABzAGIAfAKkgEFMC45LjGYAQCgAQGqAQtnd3Mtd2l6LWltZ8ABAQ&sclient=img&ei=HpLOZPmZHbrR4-EPjKqKwAQ&bih=754&biw=1482 HTTP/1.1" 200 None
+2023-08-07 00:57:57,158 INFO Directory for saving the images have been created
+2023-08-07 00:58:00,495 INFO Images have been saved to the local directory
+2023-08-07 00:58:00,495 INFO 172.18.0.2 - - [07/Aug/2023 00:58:00] "POST /review HTTP/1.1" 200 -
