@@ -21,3 +21,145 @@
 2023-08-07 00:57:57,158 INFO Directory for saving the images have been created
 2023-08-07 00:58:00,495 INFO Images have been saved to the local directory
 2023-08-07 00:58:00,495 INFO 172.18.0.2 - - [07/Aug/2023 00:58:00] "POST /review HTTP/1.1" 200 -
+2023-08-08 02:54:35,451 INFO Home page rendered
+2023-08-08 02:54:35,453 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://172.18.0.3:8000
+2023-08-08 02:54:35,453 INFO [33mPress CTRL+C to quit[0m
+2023-08-08 03:08:13,945 INFO Home page rendered
+2023-08-08 03:08:13,947 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://172.18.0.3:8000
+2023-08-08 03:08:13,947 INFO [33mPress CTRL+C to quit[0m
+2023-08-08 03:08:32,960 INFO 172.18.0.2 - - [08/Aug/2023 03:08:32] "GET / HTTP/1.1" 200 -
+2023-08-08 03:08:33,127 INFO 172.18.0.2 - - [08/Aug/2023 03:08:33] "GET /static/css/main.css HTTP/1.1" 200 -
+2023-08-08 03:08:33,135 INFO 172.18.0.2 - - [08/Aug/2023 03:08:33] "GET /static/css/style.css HTTP/1.1" 200 -
+2023-08-08 03:08:50,460 INFO search querry recieved
+2023-08-08 03:08:50,464 DEBUG Starting new HTTPS connection (1): www.google.com:443
+2023-08-08 03:08:50,655 DEBUG https://www.google.com:443 "GET /search?q=%20i%20t%20a%20l%20i%20a%20n%20%20%20m%20a%20r%20b%20l%20e%20%20%20d%20e%20s%20i%20g%20n%20s%20&tbm=isch&ved=2ahUKEwj5oOaokMaAAxW66DgGHQyVAkgQ2-cCegQIABAA&oq=elonmusk&gs_lcp=CgNpbWcQAzIICAAQgAQQsQMyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQ6BwgAEIoFEEM6BAgjECc6BggAEAcQHjoICAAQBRAHEB46BwgAEBgQgAQ6CQgAEBgQgAQQClDgmWBY5rlgYK69YGgCcAB4AIABzAGIAfAKkgEFMC45LjGYAQCgAQGqAQtnd3Mtd2l6LWltZ8ABAQ&sclient=img&ei=HpLOZPmZHbrR4-EPjKqKwAQ&bih=754&biw=1482 HTTP/1.1" 200 None
+2023-08-08 03:08:50,976 INFO Directory for saving the images have been created
+2023-08-08 03:08:50,977 ERROR Exception on /review [POST]
+Traceback (most recent call last):
+  File "/config/.local/lib/python3.8/site-packages/flask/app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/config/.local/lib/python3.8/site-packages/flask/app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/config/.local/lib/python3.8/site-packages/flask/app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/config/.local/lib/python3.8/site-packages/flask/app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/config/workspace/app.py", line 32, in main_function
+    client=MongoClient('mongodb+srv://yugpratapsingh:313ycd014916@cluster0.25gtiu5.mongodb.net/?retryWrites=true&w=majority')
+NameError: name 'MongoClient' is not defined
+2023-08-08 03:08:50,978 INFO 172.18.0.2 - - [08/Aug/2023 03:08:50] "[35m[1mPOST /review HTTP/1.1[0m" 500 -
+2023-08-08 03:10:10,123 INFO search querry recieved
+2023-08-08 03:10:10,126 DEBUG Starting new HTTPS connection (1): www.google.com:443
+2023-08-08 03:10:10,300 DEBUG https://www.google.com:443 "GET /search?q=%20i%20t%20a%20l%20i%20a%20n%20%20%20m%20a%20r%20b%20l%20e%20%20%20d%20e%20s%20i%20g%20n%20s%20&tbm=isch&ved=2ahUKEwj5oOaokMaAAxW66DgGHQyVAkgQ2-cCegQIABAA&oq=elonmusk&gs_lcp=CgNpbWcQAzIICAAQgAQQsQMyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQ6BwgAEIoFEEM6BAgjECc6BggAEAcQHjoICAAQBRAHEB46BwgAEBgQgAQ6CQgAEBgQgAQQClDgmWBY5rlgYK69YGgCcAB4AIABzAGIAfAKkgEFMC45LjGYAQCgAQGqAQtnd3Mtd2l6LWltZ8ABAQ&sclient=img&ei=HpLOZPmZHbrR4-EPjKqKwAQ&bih=754&biw=1482 HTTP/1.1" 200 None
+2023-08-08 03:10:10,490 ERROR Exception on /review [POST]
+Traceback (most recent call last):
+  File "/config/.local/lib/python3.8/site-packages/flask/app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/config/.local/lib/python3.8/site-packages/flask/app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/config/.local/lib/python3.8/site-packages/flask/app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/config/.local/lib/python3.8/site-packages/flask/app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/config/workspace/app.py", line 30, in main_function
+    os.makedirs(f'{query}_images')
+  File "/usr/lib/python3.8/os.py", line 223, in makedirs
+    mkdir(name, mode)
+FileExistsError: [Errno 17] File exists: 'italian marble designs_images'
+2023-08-08 03:10:10,491 INFO 172.18.0.2 - - [08/Aug/2023 03:10:10] "[35m[1mPOST /review HTTP/1.1[0m" 500 -
+2023-08-08 03:12:11,839 INFO Home page rendered
+2023-08-08 03:12:11,841 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://172.18.0.3:8000
+2023-08-08 03:12:11,841 INFO [33mPress CTRL+C to quit[0m
+2023-08-08 03:12:16,639 INFO search querry recieved
+2023-08-08 03:12:16,642 DEBUG Starting new HTTPS connection (1): www.google.com:443
+2023-08-08 03:12:16,818 DEBUG https://www.google.com:443 "GET /search?q=%20i%20t%20a%20l%20i%20a%20n%20%20%20m%20a%20r%20b%20l%20e%20%20%20d%20e%20s%20i%20g%20n%20s%20&tbm=isch&ved=2ahUKEwj5oOaokMaAAxW66DgGHQyVAkgQ2-cCegQIABAA&oq=elonmusk&gs_lcp=CgNpbWcQAzIICAAQgAQQsQMyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQ6BwgAEIoFEEM6BAgjECc6BggAEAcQHjoICAAQBRAHEB46BwgAEBgQgAQ6CQgAEBgQgAQQClDgmWBY5rlgYK69YGgCcAB4AIABzAGIAfAKkgEFMC45LjGYAQCgAQGqAQtnd3Mtd2l6LWltZ8ABAQ&sclient=img&ei=HpLOZPmZHbrR4-EPjKqKwAQ&bih=754&biw=1482 HTTP/1.1" 200 None
+2023-08-08 03:12:17,010 ERROR Exception on /review [POST]
+Traceback (most recent call last):
+  File "/config/.local/lib/python3.8/site-packages/flask/app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/config/.local/lib/python3.8/site-packages/flask/app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/config/.local/lib/python3.8/site-packages/flask/app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/config/.local/lib/python3.8/site-packages/flask/app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/config/workspace/app.py", line 30, in main_function
+    os.makedirs(f'{query}_images')
+  File "/usr/lib/python3.8/os.py", line 223, in makedirs
+    mkdir(name, mode)
+FileExistsError: [Errno 17] File exists: 'italian marble designs_images'
+2023-08-08 03:12:17,011 INFO 172.18.0.2 - - [08/Aug/2023 03:12:17] "[35m[1mPOST /review HTTP/1.1[0m" 500 -
+2023-08-08 03:12:34,253 INFO search querry recieved
+2023-08-08 03:12:34,256 DEBUG Starting new HTTPS connection (1): www.google.com:443
+2023-08-08 03:12:34,730 DEBUG https://www.google.com:443 "GET /search?q=%20i%20t%20a%20l%20i%20a%20n%20%20%20m%20a%20r%20b%20l%20e%20%20%20d%20e%20s%20i%20g%20n%20s%20&tbm=isch&ved=2ahUKEwj5oOaokMaAAxW66DgGHQyVAkgQ2-cCegQIABAA&oq=elonmusk&gs_lcp=CgNpbWcQAzIICAAQgAQQsQMyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQ6BwgAEIoFEEM6BAgjECc6BggAEAcQHjoICAAQBRAHEB46BwgAEBgQgAQ6CQgAEBgQgAQQClDgmWBY5rlgYK69YGgCcAB4AIABzAGIAfAKkgEFMC45LjGYAQCgAQGqAQtnd3Mtd2l6LWltZ8ABAQ&sclient=img&ei=HpLOZPmZHbrR4-EPjKqKwAQ&bih=754&biw=1482 HTTP/1.1" 200 None
+2023-08-08 03:12:34,905 INFO Directory for saving the images have been created
+2023-08-08 03:12:34,922 ERROR Exception on /review [POST]
+Traceback (most recent call last):
+  File "/config/.local/lib/python3.8/site-packages/flask/app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/config/.local/lib/python3.8/site-packages/flask/app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/config/.local/lib/python3.8/site-packages/flask/app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/config/.local/lib/python3.8/site-packages/flask/app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/config/workspace/app.py", line 33, in main_function
+    db=client['image scrapping database']
+  File "/config/.local/lib/python3.8/site-packages/pymongo/mongo_client.py", line 1567, in __getitem__
+    return database.Database(self, name)
+  File "/config/.local/lib/python3.8/site-packages/pymongo/database.py", line 141, in __init__
+    _check_name(name)
+  File "/config/.local/lib/python3.8/site-packages/pymongo/database.py", line 57, in _check_name
+    raise InvalidName("database names cannot contain the character %r" % invalid_char)
+pymongo.errors.InvalidName: database names cannot contain the character ' '
+2023-08-08 03:12:34,923 INFO 172.18.0.2 - - [08/Aug/2023 03:12:34] "[35m[1mPOST /review HTTP/1.1[0m" 500 -
+2023-08-08 03:12:54,106 INFO Home page rendered
+2023-08-08 03:13:24,341 INFO Home page rendered
+2023-08-08 03:13:24,347 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:7000
+ * Running on http://172.18.0.3:7000
+2023-08-08 03:13:24,347 INFO [33mPress CTRL+C to quit[0m
+2023-08-08 03:13:39,255 INFO 172.18.0.2 - - [08/Aug/2023 03:13:39] "GET / HTTP/1.1" 200 -
+2023-08-08 03:13:39,354 INFO 172.18.0.2 - - [08/Aug/2023 03:13:39] "GET /static/css/main.css HTTP/1.1" 200 -
+2023-08-08 03:13:39,362 INFO 172.18.0.2 - - [08/Aug/2023 03:13:39] "GET /static/css/style.css HTTP/1.1" 200 -
+2023-08-08 03:13:39,422 INFO 172.18.0.2 - - [08/Aug/2023 03:13:39] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2023-08-08 03:13:45,715 INFO search querry recieved
+2023-08-08 03:13:45,728 DEBUG Starting new HTTPS connection (1): www.google.com:443
+2023-08-08 03:13:45,908 DEBUG https://www.google.com:443 "GET /search?q=%20s%202%202%20%20%20u%20l%20t%20r%20a%20&tbm=isch&ved=2ahUKEwj5oOaokMaAAxW66DgGHQyVAkgQ2-cCegQIABAA&oq=elonmusk&gs_lcp=CgNpbWcQAzIICAAQgAQQsQMyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQ6BwgAEIoFEEM6BAgjECc6BggAEAcQHjoICAAQBRAHEB46BwgAEBgQgAQ6CQgAEBgQgAQQClDgmWBY5rlgYK69YGgCcAB4AIABzAGIAfAKkgEFMC45LjGYAQCgAQGqAQtnd3Mtd2l6LWltZ8ABAQ&sclient=img&ei=HpLOZPmZHbrR4-EPjKqKwAQ&bih=754&biw=1482 HTTP/1.1" 200 None
+2023-08-08 03:13:46,519 INFO Directory for saving the images have been created
+2023-08-08 03:13:46,567 ERROR Exception on /review [POST]
+Traceback (most recent call last):
+  File "/config/.local/lib/python3.8/site-packages/flask/app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/config/.local/lib/python3.8/site-packages/flask/app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/config/.local/lib/python3.8/site-packages/flask/app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/config/.local/lib/python3.8/site-packages/flask/app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/config/workspace/app.py", line 33, in main_function
+    db=client['image scrapping database']
+  File "/config/.local/lib/python3.8/site-packages/pymongo/mongo_client.py", line 1567, in __getitem__
+    return database.Database(self, name)
+  File "/config/.local/lib/python3.8/site-packages/pymongo/database.py", line 141, in __init__
+    _check_name(name)
+  File "/config/.local/lib/python3.8/site-packages/pymongo/database.py", line 57, in _check_name
+    raise InvalidName("database names cannot contain the character %r" % invalid_char)
+pymongo.errors.InvalidName: database names cannot contain the character ' '
+2023-08-08 03:13:46,571 INFO 172.18.0.2 - - [08/Aug/2023 03:13:46] "[35m[1mPOST /review HTTP/1.1[0m" 500 -
+2023-08-08 03:16:10,146 INFO Home page rendered
+2023-08-08 03:16:10,148 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:7000
+ * Running on http://172.18.0.3:7000
+2023-08-08 03:16:10,148 INFO [33mPress CTRL+C to quit[0m
